@@ -8,7 +8,7 @@ job ('nodejs')
     }
 
     triggers {
-        scm('H/S * * * *')
+        scm('H/5 * * * *')
     }
 
     wrappers {
