@@ -1,4 +1,4 @@
-job ('nodejs')
+job ('test code job')
 {
     scm {
         git('https://github.com/jedrzwi1/node-training.git') { node ->
@@ -16,7 +16,7 @@ job ('nodejs')
     }
 
     steps {
-        shell('node app.js')
+        shell('npm test')
     }
 
 }
